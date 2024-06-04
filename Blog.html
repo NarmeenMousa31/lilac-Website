@@ -1,0 +1,763 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+
+    <!-- bootstrap 5.3 -->
+    <link rel="stylesheet" href="vendor/bootstrap/bootstrap.min.css" />
+
+    <!-- fontawesome 6.4 -->
+    <link rel="stylesheet" href="vendor/fontAwesome/all.min.css" />
+
+    <!-- custom css-->
+    <link rel="stylesheet" href="assets/css/minify.css" />
+    <link rel="stylesheet" href="assets/css/BlogMinify.css" />
+
+    <!-- custom media -->
+    <link rel="stylesheet" href="assets/css/media.css" />
+</head>
+
+<body>
+
+    <div class="loading position-fixed vh-100 w-100 d-flex justify-content-center align-items-center">
+        <img src="./assets/img/lilac-Gif-Animation.gif" alt="loading image" class="img-fluid">
+      </div>
+    
+      <div class="scroll-to-top position-fixed rounded-0 d-flex justify-content-center align-items-center opacity-0 invisible">
+        <i class="fa-solid fa-angle-up"></i>
+        <i class="fa-solid fa-arrow-up d-none"></i>
+      </div>
+
+    <!--Navbar-->
+    <nav class="navbar navbar-expand-lg fixed-top pt-4 z-3">
+        <div class="container-fluid">
+            <a class="navbar-brand" href="#">
+                <img src="assets/img/logo (2).svg" alt="logo" class="img-fluid" />
+            </a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false"
+                aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse">
+                <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                    <li class="nav-item pe-2">
+                        <a class="nav-link active" aria-current="page" href="#">HOME</a>
+                    </li>
+                    <li class="nav-item pe-2">
+                        <a class="nav-link item" href="#">ABOUT</a>
+                    </li>
+                    <li class="nav-item pe-2">
+                        <a class="nav-link item" href="#">SHOP</a>
+                    </li>
+                    <li class="nav-item pe-2">
+                        <a class="nav-link item" href="#">JALLERY</a>
+                    </li>
+                    <li class="nav-item pe-2">
+                        <a class="nav-link item" href="#">BAGES</a>
+                    </li>
+
+                    <ul class="menu">
+                        <li class="dropdown nav-item">
+                            <a href="#" class="nav-link item">BLOG</a>
+                            <ul class="submenu ps-0">
+                                <li class="sub-dropdown">
+                                    <a href="#">Blog Listing – 1
+                                        <i class="fa-solid fa-angle-right ps-5"></i>
+                                    </a>
+                                    <ul class="sub-submenu ps-0">
+                                        <li>
+                                            <a href="#" class="p-0">Left Sidebar</a>
+                                        </li>
+                                        <li>
+                                            <a href="#" class="p-0">Right Sidebar</a>
+                                        </li>
+                                        <li>
+                                            <a href="Blog.html" class="p-0">No Sidebar</a>
+                                        </li>
+                                    </ul>
+                                </li>
+
+                                <li class="sub-dropdown">
+                                    <a href="#">Blog Detail – 1
+                                        <i class="fa-solid fa-angle-right ps-5"></i>
+                                    </a>
+                                    <ul class="sub-submenu ps-0">
+                                        <li>
+                                            <a href="#" class="p-0">Left Sidebar</a>
+                                        </li>
+                                        <li>
+                                            <a href="#" class="p-0">Right Sidebar</a>
+                                        </li>
+                                        <li>
+                                            <a href="#" class="p-0">No Sidebar</a>
+                                        </li>
+                                    </ul>
+                                </li>
+                            </ul>
+                        </li>
+                    </ul>
+                </ul>
+            </div>
+            <div class="header-icon">
+                <a href="#" class="pe-3"><i class="fa-regular fa-user text-black"></i></a>
+                <a href="#" class="pe-2"><i class="fa-solid fa-cart-shopping text-black position-relative">
+                        <span class="rounded-circle p-1">0</span>
+                    </i></a>
+                <a href="#"><i class="fa-regular fa-heart text-black">
+                        <span class="rounded-circle p-1">0</span>
+                    </i></a>
+            </div>
+        </div>
+    </nav>
+    <!--end navbar-->
+
+    <!--Blog-nosidebar section-->
+    <section class="Blog">
+        <div class="d-flex flex-column justify-content-center align-items-center h-100 position-relative z-2">
+            <h1>Blog</h1>
+            <div>
+                <a href="#" class="pe-2 text-decoration-none">Home</a>
+                <i class="fa-solid fa-square fa-xs rotate"></i>
+                <span class="ps-2">Blog</span>
+            </div>
+        </div>
+    </section>
+
+    <!--Blog contain-->
+    <section class="blogContain pt-5 pb-5">
+        <div class="container pt-5">
+            <div class="row">
+                <div class="col-md-12 col-lg-6 spec-col">
+                    <!-- entry date -->
+                    <div class="image-container position-relative">
+                        <img src="./assets/img/blog-1.webp" alt="blog-1" class="img-fluid hoverable-image" />
+                        <div class="entry-date position-absolute end-0 top-0">
+                            <div class="pt-3 pe-2">
+                                <span>Jun - 12 - 2023</span><br /><br />
+                                <div class="mt-2">
+                                    <div data-tooltip>
+                                        <i
+                                            class="fa-brands fa-instagram icon border rounded-circle d-flex justify-content-center text-primary position-absolute align-items-center top-100 start-50 translate-middle"></i>
+                                        <span class="tooltip-text">visual search</span>
+                                    </div>
+                                    <div data-tooltip>
+                                        <i
+                                            class="fa-solid fa-download icon border rounded-circle d-flex justify-content-center text-primary position-absolute align-items-center start-50 translate-middle"></i>
+                                        <span class="tooltip-text">save to collections</span>
+                                    </div>
+                                    <div data-tooltip>
+                                        <i
+                                            class="fa-solid fa-ellipsis icon border rounded-circle d-flex justify-content-center text-primary position-absolute align-items-center start-50 translate-middle"></i>
+                                        <span class="tooltip-text">setting</span>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <!-- entry title -->
+                    <div class="entry-title pt-4">
+                        <h3>
+                            <a href="#">Premium feather-light, comfortable lipstick</a>
+                        </h3>
+                        <p>
+                            Distinctively reconceptualize resource maximizing methodologies
+                            for enterprise strategic theme areas. Energistically
+                            revolutionize high...
+                        </p>
+                    </div>
+                    <!-- entry button -->
+                    <div class="entry-button position-relative">
+                        <a href="#" class="text-decoration-none">Read More</a>
+                    </div>
+                </div>
+                <div class="col-md-12 col-lg-6 spec-col">
+                    <!-- entry date -->
+                    <div class="image-container position-relative">
+                        <img src="./assets/img/blog-2.webp" alt="blog-2" class="img-fluid">
+                        <div class=" entry-date position-absolute end-0 top-0">
+                            <div class="pt-3 pe-2">
+                                <span>Jun - 12 - 2023</span><br><br>
+                                <div class=" mt-2">
+                                    <div data-tooltip>
+                                        <i
+                                            class="fa-brands fa-instagram icon border rounded-circle d-flex justify-content-center text-primary position-absolute align-items-center top-100 start-50 translate-middle"></i>
+                                        <span class="tooltip-text">visual search</span>
+                                    </div>
+                                    <div data-tooltip>
+                                        <i
+                                            class="fa-solid fa-download icon border rounded-circle d-flex justify-content-center text-primary position-absolute align-items-center start-50 translate-middle"></i>
+                                        <span class="tooltip-text">save to collections</span>
+                                    </div>
+                                    <div data-tooltip>
+                                        <i
+                                            class="fa-solid fa-ellipsis icon border rounded-circle d-flex justify-content-center text-primary position-absolute align-items-center start-50 translate-middle"></i>
+                                        <span class="tooltip-text">setting</span>
+                                    </div>
+                                </div>
+
+                            </div>
+                        </div>
+                    </div>
+                    <!-- entry title -->
+                    <div class="entry-title pt-4">
+                        <h3>
+                            <a href="#">Long-lasting & quick dry nail polish set</a>
+                        </h3>
+                        <p>Distinctively reconceptualize resource maximizing methodologies for enterprise strategic
+                            theme areas.
+                            Energistically revolutionize high...</p>
+                    </div>
+                    <!-- entry button -->
+                    <div class="entry-button position-relative">
+                        <a href="#" class="text-decoration-none">Read More</a>
+                    </div>
+                </div>
+                <div class="col-md-12 col-lg-6 spec-col pt-5">
+                    <!-- entry date -->
+                    <div class="image-container position-relative">
+                        <img src="./assets/img/blog-3.webp" alt="blog-3" class="img-fluid">
+                        <div class=" entry-date position-absolute end-0 top-0">
+                            <div class="pt-3 pe-2">
+                                <span>Jun - 12 - 2023</span><br><br>
+                                <div class=" mt-2">
+                                    <div data-tooltip>
+                                        <i
+                                            class="fa-brands fa-instagram icon border rounded-circle d-flex justify-content-center text-primary position-absolute align-items-center top-100 start-50 translate-middle"></i>
+                                        <span class="tooltip-text">visual search</span>
+                                    </div>
+                                    <div data-tooltip>
+                                        <i
+                                            class="fa-solid fa-download icon border rounded-circle d-flex justify-content-center text-primary position-absolute align-items-center start-50 translate-middle"></i>
+                                        <span class="tooltip-text">save to collections</span>
+                                    </div>
+                                    <div data-tooltip>
+                                        <i
+                                            class="fa-solid fa-ellipsis icon border rounded-circle d-flex justify-content-center text-primary position-absolute align-items-center start-50 translate-middle"></i>
+                                        <span class="tooltip-text">setting</span>
+                                    </div>
+                                </div>
+
+                            </div>
+                        </div>
+                    </div>
+                    <!-- entry title -->
+                    <div class="entry-title pt-4">
+                        <h3>
+                            <a href="#">Wrinkles & acne free best night serum</a>
+                        </h3>
+                        <p>Distinctively reconceptualize resource maximizing methodologies for enterprise strategic
+                            theme areas.
+                            Energistically revolutionize high...</p>
+                    </div>
+                    <!-- entry button -->
+                    <div class="entry-button position-relative">
+                        <a href="#" class="text-decoration-none">Read More</a>
+                    </div>
+                </div>
+                <div class="col-md-12 col-lg-6 spec-col pt-5">
+                    <!-- entry date -->
+                    <div class="image-container position-relative">
+                        <img src="./assets/img/blog-4.webp" alt="blog-4" class="img-fluid">
+                        <div class=" entry-date position-absolute end-0 top-0">
+                            <div class="pt-3 pe-2">
+                                <span>Jun - 12 - 2023</span><br><br>
+                                <div class=" mt-2">
+                                    <div data-tooltip>
+                                        <i
+                                            class="fa-brands fa-instagram icon border rounded-circle d-flex justify-content-center text-primary position-absolute align-items-center top-100 start-50 translate-middle"></i>
+                                        <span class="tooltip-text">visual search</span>
+                                    </div>
+                                    <div data-tooltip>
+                                        <i
+                                            class="fa-solid fa-download icon border rounded-circle d-flex justify-content-center text-primary position-absolute align-items-center start-50 translate-middle"></i>
+                                        <span class="tooltip-text">save to collections</span>
+                                    </div>
+                                    <div data-tooltip>
+                                        <i
+                                            class="fa-solid fa-ellipsis icon border rounded-circle d-flex justify-content-center text-primary position-absolute align-items-center start-50 translate-middle"></i>
+                                        <span class="tooltip-text">setting</span>
+                                    </div>
+                                </div>
+
+                            </div>
+                        </div>
+                    </div>
+                    <!-- entry title -->
+                    <div class="entry-title pt-4">
+                        <h3>
+                            <a href="#">Safety and toxicology-tested cosmetics</a>
+                        </h3>
+                        <p>Distinctively reconceptualize resource maximizing methodologies for enterprise strategic
+                            theme areas.
+                            Energistically revolutionize high...</p>
+                    </div>
+                    <!-- entry button -->
+                    <div class="entry-button position-relative">
+                        <a href="#" class="text-decoration-none">Read More</a>
+                    </div>
+                </div>
+                <div class="col-md-12 col-lg-6 spec-col pt-5">
+                    <!-- entry date -->
+                    <div class="image-container position-relative">
+                        <img src="./assets/img/blog-5.webp" alt="blog-5" class="img-fluid">
+                        <div class=" entry-date position-absolute end-0 top-0">
+                            <div class="pt-3 pe-2">
+                                <span>Jun - 12 - 2023</span><br><br>
+                                <div class=" mt-2">
+                                    <div data-tooltip>
+                                        <i
+                                            class="fa-brands fa-instagram icon border rounded-circle d-flex justify-content-center text-primary position-absolute align-items-center top-100 start-50 translate-middle"></i>
+                                        <span class="tooltip-text">visual search</span>
+                                    </div>
+                                    <div data-tooltip>
+                                        <i
+                                            class="fa-solid fa-download icon border rounded-circle d-flex justify-content-center text-primary position-absolute align-items-center start-50 translate-middle"></i>
+                                        <span class="tooltip-text">save to collections</span>
+                                    </div>
+                                    <div data-tooltip>
+                                        <i
+                                            class="fa-solid fa-ellipsis icon border rounded-circle d-flex justify-content-center text-primary position-absolute align-items-center start-50 translate-middle"></i>
+                                        <span class="tooltip-text">setting</span>
+                                    </div>
+                                </div>
+
+                            </div>
+                        </div>
+                    </div>
+                    <!-- entry title -->
+                    <div class="entry-title pt-4">
+                        <h3>
+                            <a href="#">Budget-friendly beauty treatment in metro cities</a>
+                        </h3>
+                        <p>Distinctively reconceptualize resource maximizing methodologies for enterprise strategic
+                            theme areas.
+                            Energistically revolutionize high...</p>
+                    </div>
+                    <!-- entry button -->
+                    <div class="entry-button position-relative">
+                        <a href="#" class="text-decoration-none">Read More</a>
+                    </div>
+                </div>
+                <div class="col-md-12 col-lg-6 spec-col pt-5">
+                    <!-- entry date -->
+                    <div class="image-container position-relative">
+                        <img src="./assets/img/blog-6.webp" alt="blog-6" class="img-fluid">
+                        <div class=" entry-date position-absolute end-0 top-0">
+                            <div class="pt-3 pe-2">
+                                <span>Jun - 12 - 2023</span><br><br>
+                                <div class=" mt-2">
+                                    <div data-tooltip>
+                                        <i
+                                            class="fa-brands fa-instagram icon border rounded-circle d-flex justify-content-center text-primary position-absolute align-items-center top-100 start-50 translate-middle"></i>
+                                        <span class="tooltip-text">visual search</span>
+                                    </div>
+                                    <div data-tooltip>
+                                        <i
+                                            class="fa-solid fa-download icon border rounded-circle d-flex justify-content-center text-primary position-absolute align-items-center start-50 translate-middle"></i>
+                                        <span class="tooltip-text">save to collections</span>
+                                    </div>
+                                    <div data-tooltip>
+                                        <i
+                                            class="fa-solid fa-ellipsis icon border rounded-circle d-flex justify-content-center text-primary position-absolute align-items-center start-50 translate-middle"></i>
+                                        <span class="tooltip-text">setting</span>
+                                    </div>
+                                </div>
+
+                            </div>
+                        </div>
+                    </div>
+                    <!-- entry title -->
+                    <div class="entry-title pt-4">
+                        <h3>
+                            <a href="#">Every day essential office makeup kit set </a>
+                        </h3>
+                        <p>Distinctively reconceptualize resource maximizing methodologies for enterprise strategic
+                            theme areas.
+                            Energistically revolutionize high...</p>
+                    </div>
+                    <!-- entry button -->
+                    <div class="entry-button position-relative">
+                        <a href="#" class="text-decoration-none">Read More</a>
+                    </div>
+                </div>
+                <div class="col-md-12 col-lg-6 spec-col pt-5">
+                    <!-- entry date -->
+                    <div class="image-container position-relative">
+                        <img src="./assets/img/blog-7.webp" alt="blog-7" class="img-fluid">
+                        <div class=" entry-date position-absolute end-0 top-0">
+                            <div class="pt-3 pe-2">
+                                <span>Jun - 12 - 2023</span><br><br>
+                                <div class=" mt-2">
+                                    <div data-tooltip>
+                                        <i
+                                            class="fa-brands fa-instagram icon border rounded-circle d-flex justify-content-center text-primary position-absolute align-items-center top-100 start-50 translate-middle"></i>
+                                        <span class="tooltip-text">visual search</span>
+                                    </div>
+                                    <div data-tooltip>
+                                        <i
+                                            class="fa-solid fa-download icon border rounded-circle d-flex justify-content-center text-primary position-absolute align-items-center start-50 translate-middle"></i>
+                                        <span class="tooltip-text">save to collections</span>
+                                    </div>
+                                    <div data-tooltip>
+                                        <i
+                                            class="fa-solid fa-ellipsis icon border rounded-circle d-flex justify-content-center text-primary position-absolute align-items-center start-50 translate-middle"></i>
+                                        <span class="tooltip-text">setting</span>
+                                    </div>
+                                </div>
+
+                            </div>
+                        </div>
+                    </div>
+                    <!-- entry title -->
+                    <div class="entry-title pt-4">
+                        <h3>
+                            <a href="#">Extremely light and long-lasting makeup</a>
+                        </h3>
+                        <p>Distinctively reconceptualize resource maximizing methodologies for enterprise strategic
+                            theme areas.
+                            Energistically revolutionize high...</p>
+                    </div>
+                    <!-- entry button -->
+                    <div class="entry-button position-relative">
+                        <a href="#" class="text-decoration-none">Read More</a>
+                    </div>
+                </div>
+                <div class="col-md-12 col-lg-6 spec-col pt-5">
+                    <!-- entry date -->
+                    <div class="image-container position-relative">
+                        <img src="./assets/img/blog-8.webp" alt="blog-8" class="img-fluid">
+                        <div class=" entry-date position-absolute end-0 top-0">
+                            <div class="pt-3 pe-2">
+                                <span>Jun - 12 - 2023</span><br><br>
+                                <div class=" mt-2">
+                                    <div data-tooltip>
+                                        <i
+                                            class="fa-brands fa-instagram icon border rounded-circle d-flex justify-content-center text-primary position-absolute align-items-center top-100 start-50 translate-middle"></i>
+                                        <span class="tooltip-text">visual search</span>
+                                    </div>
+                                    <div data-tooltip>
+                                        <i
+                                            class="fa-solid fa-download icon border rounded-circle d-flex justify-content-center text-primary position-absolute align-items-center start-50 translate-middle"></i>
+                                        <span class="tooltip-text">save to collections</span>
+                                    </div>
+                                    <div data-tooltip>
+                                        <i
+                                            class="fa-solid fa-ellipsis icon border rounded-circle d-flex justify-content-center text-primary position-absolute align-items-center start-50 translate-middle"></i>
+                                        <span class="tooltip-text">setting</span>
+                                    </div>
+                                </div>
+
+                            </div>
+                        </div>
+                    </div>
+                    <!-- entry title -->
+                    <div class="entry-title pt-4">
+                        <h3>
+                            <a href="#">Professional makeup brushes for a flawless finish</a>
+                        </h3>
+                        <p>Distinctively reconceptualize resource maximizing methodologies for enterprise strategic
+                            theme areas.
+                            Energistically revolutionize high...</p>
+                    </div>
+                    <!-- entry button -->
+                    <div class="entry-button position-relative">
+                        <a href="#" class="text-decoration-none">Read More</a>
+                    </div>
+                </div>
+                <div class="col-md-12 col-lg-6 spec-col pt-5">
+                    <!-- entry date -->
+                    <div class="image-container position-relative">
+                        <img src="./assets/img/blog-9.webp" alt="blog-9" class="img-fluid">
+                        <div class=" entry-date position-absolute end-0 top-0">
+                            <div class="pt-3 pe-2">
+                                <span>Jun - 12 - 2023</span><br><br>
+                                <div class=" mt-2">
+                                    <div data-tooltip>
+                                        <i
+                                            class="fa-brands fa-instagram icon border rounded-circle d-flex justify-content-center text-primary position-absolute align-items-center top-100 start-50 translate-middle"></i>
+                                        <span class="tooltip-text">visual search</span>
+                                    </div>
+                                    <div data-tooltip>
+                                        <i
+                                            class="fa-solid fa-download icon border rounded-circle d-flex justify-content-center text-primary position-absolute align-items-center start-50 translate-middle"></i>
+                                        <span class="tooltip-text">save to collections</span>
+                                    </div>
+                                    <div data-tooltip>
+                                        <i
+                                            class="fa-solid fa-ellipsis icon border rounded-circle d-flex justify-content-center text-primary position-absolute align-items-center start-50 translate-middle"></i>
+                                        <span class="tooltip-text">setting</span>
+                                    </div>
+                                </div>
+
+                            </div>
+                        </div>
+                    </div>
+                    <!-- entry title -->
+                    <div class="entry-title pt-4">
+                        <h3>
+                            <a href="#">Natural honey hair removal hot wax for girls</a>
+                        </h3>
+                        <p>Distinctively reconceptualize resource maximizing methodologies for enterprise strategic
+                            theme areas.
+                            Energistically revolutionize high...</p>
+                    </div>
+                    <!-- entry button -->
+                    <div class="entry-button position-relative">
+                        <a href="#" class="text-decoration-none">Read More</a>
+                    </div>
+                </div>
+                <div class="col-md-12 col-lg-6 spec-col pt-5">
+                    <!-- entry date -->
+                    <div class="image-container position-relative">
+                        <img src="./assets/img/blog-10.webp" alt="blog-10" class="img-fluid">
+                        <div class=" entry-date position-absolute end-0 top-0">
+                            <div class="pt-3 pe-2">
+                                <span>Jun - 12 - 2023</span><br><br>
+                                <div class=" mt-2">
+                                    <div data-tooltip>
+                                        <i
+                                            class="fa-brands fa-instagram icon border rounded-circle d-flex justify-content-center text-primary position-absolute align-items-center top-100 start-50 translate-middle"></i>
+                                        <span class="tooltip-text">visual search</span>
+                                    </div>
+                                    <div data-tooltip>
+                                        <i
+                                            class="fa-solid fa-download icon border rounded-circle d-flex justify-content-center text-primary position-absolute align-items-center start-50 translate-middle"></i>
+                                        <span class="tooltip-text">save to collections</span>
+                                    </div>
+                                    <div data-tooltip>
+                                        <i
+                                            class="fa-solid fa-ellipsis icon border rounded-circle d-flex justify-content-center text-primary position-absolute align-items-center start-50 translate-middle"></i>
+                                        <span class="tooltip-text">setting</span>
+                                    </div>
+                                </div>
+
+                            </div>
+                        </div>
+                    </div>
+                    <!-- entry title -->
+                    <div class="entry-title pt-4">
+                        <h3>
+                            <a href="#">Special microfiber blender makeup sponge</a>
+                        </h3>
+                        <p>Distinctively reconceptualize resource maximizing methodologies for enterprise strategic
+                            theme areas.
+                            Energistically revolutionize high...</p>
+                    </div>
+                    <!-- entry button -->
+                    <div class="entry-button position-relative">
+                        <a href="#" class="text-decoration-none">Read More</a>
+                    </div>
+                </div>
+                <div class="col-md-12 col-lg-6 spec-col pt-5">
+                    <!-- entry date -->
+                    <div class="image-container position-relative">
+                        <img src="./assets/img/blog-11.webp" alt="blog-11" class="img-fluid">
+                        <div class=" entry-date position-absolute end-0 top-0">
+                            <div class="pt-3 pe-2">
+                                <span>Jun - 12 - 2023</span><br><br>
+                                <div class=" mt-2">
+                                    <div data-tooltip>
+                                        <i
+                                            class="fa-brands fa-instagram icon border rounded-circle d-flex justify-content-center text-primary position-absolute align-items-center top-100 start-50 translate-middle"></i>
+                                        <span class="tooltip-text">visual search</span>
+                                    </div>
+                                    <div data-tooltip>
+                                        <i
+                                            class="fa-solid fa-download icon border rounded-circle d-flex justify-content-center text-primary position-absolute align-items-center start-50 translate-middle"></i>
+                                        <span class="tooltip-text">save to collections</span>
+                                    </div>
+                                    <div data-tooltip>
+                                        <i
+                                            class="fa-solid fa-ellipsis icon border rounded-circle d-flex justify-content-center text-primary position-absolute align-items-center start-50 translate-middle"></i>
+                                        <span class="tooltip-text">setting</span>
+                                    </div>
+                                </div>
+
+                            </div>
+                        </div>
+                    </div>
+                    <!-- entry title -->
+                    <div class="entry-title pt-4">
+                        <h3>
+                            <a href="#">Surprising men’s spa beauty treatment</a>
+                        </h3>
+                        <p>Distinctively reconceptualize resource maximizing methodologies for enterprise strategic
+                            theme areas.
+                            Energistically revolutionize high...</p>
+                    </div>
+                    <!-- entry button -->
+                    <div class="entry-button position-relative">
+                        <a href="#" class="text-decoration-none">Read More</a>
+                    </div>
+                </div>
+                <div class="col-md-12 col-lg-6 spec-col pt-5">
+                    <!-- entry date -->
+                    <div class="image-container position-relative">
+                        <img src="./assets/img/blog-12.webp" alt="blog-12" class="img-fluid">
+                        <div class=" entry-date position-absolute end-0 top-0">
+                            <div class="pt-3 pe-2">
+                                <span>Jun - 12 - 2023</span><br><br>
+                                <div class=" mt-2">
+                                    <div data-tooltip>
+                                        <i
+                                            class="fa-brands fa-instagram icon border rounded-circle d-flex justify-content-center text-primary position-absolute align-items-center top-100 start-50 translate-middle"></i>
+                                        <span class="tooltip-text">visual search</span>
+                                    </div>
+                                    <div data-tooltip>
+                                        <i
+                                            class="fa-solid fa-download icon border rounded-circle d-flex justify-content-center text-primary position-absolute align-items-center start-50 translate-middle"></i>
+                                        <span class="tooltip-text">save to collections</span>
+                                    </div>
+                                    <div data-tooltip>
+                                        <i
+                                            class="fa-solid fa-ellipsis icon border rounded-circle d-flex justify-content-center text-primary position-absolute align-items-center start-50 translate-middle"></i>
+                                        <span class="tooltip-text">setting</span>
+                                    </div>
+                                </div>
+
+                            </div>
+                        </div>
+                    </div>
+                    <!-- entry title -->
+                    <div class="entry-title pt-4">
+                        <h3>
+                            <a href="#">Scientifically-formulated cleansing bar ￼</a>
+                        </h3>
+                        <p>Distinctively reconceptualize resource maximizing methodologies for enterprise strategic
+                            theme areas.
+                            Energistically revolutionize high...</p>
+                    </div>
+                    <!-- entry button -->
+                    <div class="entry-button position-relative">
+                        <a href="#" class="text-decoration-none">Read More</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!--end Blog contain-->
+
+    <!-- start foter section-->
+    <footer class="footer foterBlog pt-5 ">
+        <div class="row me-0">
+            <div class="col-md-12 col-lg-4">
+                <div class="d-flex flex-column align-items-start social social-med">
+                    <div class="container">
+                        <span>Contact</span>
+                        <div class="contacts pt-4">
+                            <div>
+                                <i class="fa-solid fa-phone pe-3 text-black"></i>
+                                <a href="#" class="text-decoration-none">+(1) 000 123 456 789</a>  
+                            </div>
+                            <div class="pt-3">
+                                <i class="fa-solid fa-envelope pe-3 text-black"></i>
+                                <a href="#" class="text-decoration-none">info@example.com</a>  
+                            </div>
+                            <div class="pt-3">
+                                <i class="fa-solid fa-location-dot pe-3 text-black"></i>
+                                <span href="#" class="text-decoration-none">No: 58 A, East Madison Street, Baltimore, MD, USA 4508</span>  
+                            </div>
+                        </div>
+                        <div class="social-media d-flex justify-content-around w-50 mt-3 pt-4">
+                            <div class="icon border rounded-circle d-flex align-items-center justify-content-center">
+                                <i class="fa-brands fa-instagram"></i>
+                            </div>
+                            <div class="icon border rounded-circle d-flex align-items-center justify-content-center">
+                                <i class="fa-brands fa-linkedin-in"></i>
+                            </div>
+                            <div class="icon border rounded-circle d-flex align-items-center justify-content-center">
+                                <i class="fa-brands fa-facebook-f"></i>
+                            </div>
+                            <div class="icon border rounded-circle d-flex align-items-center justify-content-center">
+                                <i class="fa-brands fa-twitter"></i>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-12 col-lg-4 pt-5">
+                <div class="logo-prject d-flex flex-column align-items-center logo-footer">
+                    <img src="./assets/img/logo (2).svg" class="img-fluid w-25" alt="logo Project">
+                    <br>
+                    <p>Rorem ipsum sit amet, sed do eiusmod ut labore et dolore magna aliqua. 
+                        Risus commodo viverra maecenas accumsan lacus vel facilisis.
+                    </p>
+                    <div class="d-flex justify-content-around pb-5">
+                        <p class="pe-3 ">Home</p>
+                        <p class="pe-3">Shop</p>
+                        <p class="pe-3">Collection</p>
+                        <p>Blog</p>
+                    </div>
+
+                    <p class="pt-3">© 2023 Lilac,
+                        <a href="#" class="text-decoration-none">WeDesignTech</a>
+                        . All Right Reserved.
+                    </p>
+                </div>
+            </div>
+            <div class="col-md-12 col-lg-4">
+                <div class="d-flex flex-column align-items-end social">
+                    <span>Newsletter</span>
+                    <p class="text-end pt-4">Sorem ipsum dolor sit amet, consectetur adipiscing elit, eiusmod aliqua.</p>
+                    <div class="d-flex justify-content-end col-10">
+                        <input type="email"
+                            class="form-control bg-transparent border-2 rounded-0 text-black"
+                            placeholder="Your Email">
+                        <i class="fa-solid fa-arrow-right position-relative rounded rounded-0 pt-1 pb-1 pe-3 ps-3"></i>
+                    </div>
+                    <div class="emailNote">
+                        <span>We do not spam. We send offers instead.</span>
+                    </div>
+                    <div class="container-fluid pt-3">
+                        <div class="row pt-2">
+                            <div class="col-2">
+                                <a href="#">
+                                    <img src="./assets/img/skril-card.svg" alt="skril-card"
+                                        class="img-fluid bg-main-color rounded">
+                                </a>
+                            </div>
+                            <div class="col-2">
+                                <a href="#">
+                                    <img src="./assets/img/paypal-card.svg" alt="paypal-card"
+                                        class="img-fluid bg-main-color rounded">
+                                </a>
+                            </div>
+                            <div class="col-2">
+                                <a href="#">
+                                    <img src="./assets/img/visa.svg" alt="visa-card"
+                                        class="img-fluid bg-main-color rounded">
+                                </a>
+                            </div>
+                            <div class="col-2">
+                                <a href="#">
+                                    <img src="./assets/img/master-card.svg" alt="master-card"
+                                        class="img-fluid bg-main-color round-icon rounded">
+                                </a>
+                            </div>
+                            <div class="col-2">
+                                <a href="#">
+                                    <img src="./assets/img/card_apple.svg" alt="card_apple"
+                                        class="img-fluid bg-main-color round-icon rounded">
+                                </a>
+                            </div>
+                        </div>
+
+                    </div>
+
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <!-- bootstrap 5.3 -->
+  <script src="vendor/bootstrap/bootstrap.bundle.min.js"></script>
+
+  <!-- js -->
+  <script src="assets/js/main.js"></script>
+</body>
+
+</html>

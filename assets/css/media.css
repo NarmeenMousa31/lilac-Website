@@ -1,0 +1,343 @@
+@media (max-width: 1024px) {
+    .mynav{
+        width: fit-content;
+    }   
+     .trendingCont p {
+        width: fit-content !important;
+    }    
+    .img-sale .cosme {
+        left: 120;
+    }
+    .navbar{
+        overflow: hidden;
+    }
+} 
+@media (max-width: 1340px) {
+    .trendingImg2 .flower{
+        display: none !important;
+    }
+    .trendingCont p{
+        width: fit-content;
+    } 
+}
+
+@media (max-width: 1440px) {  
+    .carousel-inner .carousel-item.item1,.carousel-inner .carousel-item.item2 {
+        background-position-x: 65%;
+        background-position-y: 27%;
+     }
+    .carousel-inner .carousel-item.item2 {
+        background-position-x: 33%;
+        background-position-y: 16%;
+    }
+    .carousel-inner .carousel-item.item3 {
+        background-position-x: 55%;
+        background-position-y: 16%;
+    } 
+}
+@media (max-width : 768px){
+    .trendingImg .trendFlower {
+       display: none;
+    }
+    nav .header-icon{
+        display: none ;
+    }
+    .trendingCont p {
+        width: 300;
+    }
+    .trendingCont p{
+        text-align: left;
+        font-size: 20px;
+    }
+    .trendingCont{
+        padding-left: 0px !important;
+        margin-left: 0px !important;
+        margin-bottom: 40px;
+    }
+    .item-care{
+        padding-top: unset !important;
+        padding-left: 35px;
+        padding-right: 35px;
+    }
+    .item-care .row{
+        height: unset !important;
+    }
+    .hair-care,.Body-Care{
+        padding-bottom: 15px;
+    }
+    .img-sale .cosme {
+        left: 98px;
+        top: 5px;
+    }
+    .img-sale .line {
+        bottom: 221px;
+        left: 2px;
+        width: 40% !important;
+    }
+    .img-sale .makup {
+        top: 191px;
+        right: -25px;
+        width: 40%;
+    }
+    .img-fluid.testi{
+        width: 50% !important;
+    }
+    .carousel-inner .clientInfo::after,.carousel-inner .clientInfo::before{
+        display: none;
+    }
+    .T-newblog {
+        left: 82px;
+    }
+    .entry-title{
+        padding-top: 2rem;
+    }
+    .spec-col{
+        padding-top: 2rem;
+    }
+    .insta-contain.pear-img{
+        display: none !important;
+    }
+    .INSTA-SHOP .col-6{
+        width: 100%;
+    }
+    .footer .col-md-4{
+        padding-bottom: 2rem;
+    }
+    .INSTA-SHOP .Title {
+        padding-top: 0px !important;
+    }
+    .social.social-med,.logo-footer{
+        padding-bottom: 2rem;
+        border-width: 0px 0px 1px 0px;
+    }
+    .logo-footer,.social{
+        padding-top: 1rem;
+    }
+    .S-Guranteed::after{
+        display: none ;
+    }
+    
+}
+
+@media (min-width: 992px){
+.navbar-expand-lg .navbar-nav .dropdown-menu {
+    position: unset;
+    }
+}
+
+@media (max-width : 452px){
+    .navbar{
+        width: fit-content;
+    }
+    .carousel-caption h2 {
+        text-align: initial;
+    }
+    .carousel-caption p {
+        width: fit-content;
+        margin-bottom: 1.2rem !important;
+    }
+    .trendingImg .trendFlower{
+        display: none;
+    }
+    header .carousel-dark .carousel-indicators {
+        bottom: 0px;
+    }
+    .trendingCont{
+        padding-left: 0px !important;
+        margin-left: 0px !important;
+        margin-bottom: 40px;
+    }
+    .trendingCont p{
+        width: unset;
+        text-align: center;
+        font-size: 20px;
+    }
+    .end-flower img{
+        display: none;
+    }
+    .trendingBeauty span ,.sale span{
+        margin-top: 15px ;
+        font-size: 18px;
+    }
+    .trendingLogo {
+        width: 35%;
+    }
+    .trendingBeauty{
+        text-align: center;
+    }
+    .trendingImg2 .flower{
+        display: none;
+    }
+    .trendingImg2{
+        display: inline-block !important;
+    }
+    .trendingImg2 .cosmetics{
+        width: 100% !important;
+    }
+    .item-care{
+        padding-top: unset !important;
+        padding-left: 35px;
+        padding-right: 35px;
+    }
+    .item-care .row{
+        height: unset !important;
+    }
+    .hair-care,.Body-Care{
+        padding-bottom: 15px;
+    }
+    .sale {
+        padding-top: unset !important;
+        padding-bottom: unset !important;
+    }
+    .sale-titl{
+        text-align: center;
+    }
+    .sale-titl h2{
+        font-size: 44px;
+    }
+    .sale .heder-button{
+        text-align: center;
+    }
+    .img-sale .cosme,.img-sale .line,.img-sale .makup {
+        display: none !important;
+    }
+    .imges{
+        padding-bottom: unset !important;
+    }
+    .img-sale{
+        display: none;
+    }
+    .branding .Title{
+        padding-top: unset !important;
+        margin-top: unset !important;
+    }
+    .branding .Title h2,.CHealthiest-Cosmetics h2,.INSTA-SHOP h2,.client-say h2{
+        font-size: 30px;
+    }
+    .branding .info,.prodect-icons{
+        text-align: center;
+    }
+    .sect .col-9{
+        width: 100% !important;
+    }
+    .prodect-icons{
+        justify-content: center !important;
+    }
+    .branding .brand-item1 .col-3 ,.branding .brand-item2 .col-3 ,.branding .brand-item3 .col-3
+    ,.branding .brand-item4 .col-3,.branding .brand-item5 .col-3{
+        width: 100%;
+        
+    }
+    .row.sect{
+        margin-right: 1rem !important;
+        margin-left: 0.25rem !important;
+    }
+    .col-md-3.brand-item{
+        margin-bottom: 2rem;
+    }
+    .P-Sold::after, .S-Guranteed::after, .C-Satisfied::after{
+        display: none;
+    }
+    .counter-title a{
+        font-size: 20px;
+    }
+    .text-counter p{
+        width: 100%;
+        margin: unset !important;
+    }
+    .T-newblog {
+        left: 50px;
+    }
+    .mew-blog .container-fluid{
+        padding-top: 0px;
+    }
+    .entry-title{
+        padding-top: 2rem;
+    }
+    .spec-col{
+        padding-top: 2rem;
+    }
+    .insta-contain.pear-img{
+        display: none !important;
+    }
+    .INSTA-SHOP .col-6{
+        width: 100%;
+    }
+    .footer .col-md-4{
+        padding-bottom: 2rem;
+    }
+    .social.social-med, .logo-footer {
+        border-width: 0px 0px 1px 0px;
+    }
+    .social-media{
+        padding-bottom: 2rem;
+    }
+    .carousel-inner .clientInfo::after,.carousel-inner .clientInfo::before {
+        display: none;
+    }
+    .header-icon{
+        display: none;
+    }
+    .mynav .nav-content {
+        display: flex!important;
+        justify-content: flex-start !important;
+        overflow-x: hidden;
+        
+    }
+    .navs{
+        overflow-x: hidden;width: fit-content;
+    }
+    .img-fluid.testi{
+        width: 85% !important;
+    }
+}
+
+@media (max-width : 375px){
+    .carousel-caption h2,.trendingBeauty h2,.Title h2,.sale-titl h2,
+    .branding .Title h2, .CHealthiest-Cosmetics h2, .INSTA-SHOP h2, .client-say h2{
+        font-size: 20px;
+    }
+    .sale-icon h4 ,.Title span,.brand-item h3,.entry-title h3 a,.imgTitle h3{
+        font-size: 16px;
+    }
+    .sale-titl p,.sale-icon p,.sale span,
+    .entry-title p,.imgTitle p,.imgTitle a{
+        font-size: 12px;
+    }
+    .entry-date span{
+        font-size: 8px;
+    }
+    .img-fluid.testi {
+        display: none;
+    }
+    .carousel-inner .clientInfo{
+        padding-bottom: 5rem;
+    }
+    .new-blog-top {
+         height: 0px; 
+    }
+    .entry-date .icon{
+        display: none !important;
+    }
+    .social .col-2 {
+        width: 32.666667% !important;
+        padding-bottom: 1rem;
+    }
+    .logo-prject p {
+        text-align: center;
+    }
+
+}   
+@media (max-width : 425px){
+    .navbar>.container-fluid{
+        flex-wrap: nowrap !important;
+        padding-top: 1rem;
+    }
+}
+
+    @media (max-width : 140px){
+        .trendingCont p {
+            font-size: 14px;
+            width: fit-content !important;
+        }
+}
